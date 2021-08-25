@@ -1,0 +1,7 @@
+Window.addEventListener('DOMContentLoaded', function ()  {
+    window.addEventListener('scroll', function () {
+     const header = document.querySelector ('header')
+     header.classList.toggle('sticky', window.scrolly > 0)
+    })
+})
+
